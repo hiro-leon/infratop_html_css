@@ -12,7 +12,7 @@
 }
 
 .box{
-  width: 960px;
+	width: 960px;
 	margin: 50px auto;
 }
 
@@ -70,3 +70,29 @@ p {
 }
 
 
+@media screen and (max-width:768px) {
+  .box {
+  	width: 90%;
+  }
+
+  .box-item {
+  	width: 400px;
+  	margin: 0px auto 20px;
+    float: none;
+  }
+
+  .box-item:last-child {
+    margin: 0px auto 0px;
+  }
+
+  .blog-image1 {
+  	height: none;
+  }
+
+    .blog-image1 {
+  	width: none;
+  }
+
+    .blog-image1 {
+  	width: none;
+  }
